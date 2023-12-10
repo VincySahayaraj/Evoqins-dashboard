@@ -1,0 +1,16 @@
+.navlink{
+color: #fff !important;
+gap: 6px;
+}
+
+.navlink:hover,.head .active{
+    background: #452eab;
+    padding: 7px 10px !important;
+    height: 40px !important;
+    border-radius: 25px;
+}
+@media(max-width:991px){
+    .nav-names{
+        display: none;
+    }
+}

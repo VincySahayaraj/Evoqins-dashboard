@@ -1,0 +1,175 @@
+
+.apexcharts-legend.apx-legend-position-bottom {
+    flex-direction: column;
+}
+
+.dashboard-total {
+    background: '#fafafa';
+}
+
+.safe-span {
+    background: #fff;
+    height: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 0px 10px;
+    border-radius: 20px;
+    font-weight: 500;
+    box-shadow: 2px 2px 3px 4px #dddd;
+}
+
+.week-selection {
+    height: 40px;
+    border: none;
+    border-radius: 7px;
+    background: #f3f4f7;
+    font-weight: 500;
+}
+
+.flex-value {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-value p {
+    margin: 0px;
+    color: #e7e8ea;
+}
+
+.card-header {
+    background: #fff !important;
+}
+
+.side-header {
+    gap: 20px;
+}
+
+.main-header {
+    align-items: center;
+}
+
+.right-sidebar {
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-left {
+    text-align: left;
+    font-weight: 700;
+}
+
+.prog-heading {
+    font-size: 16px !important;
+    font-weight: 600 !important;
+}
+
+.custom-card {
+    padding: 30px;
+}
+
+.first-column-progress {
+    gap: 38px;
+}
+.rs-progress-line-inner{
+    min-height: 140px !important;
+}
+.first-one .rs-progress-line-inner {
+    background: #fef9de !important;
+   
+}
+
+.first-one .rs-progress-line-bg {
+    background: #f7e143 !important;
+}
+
+
+.second-one .rs-progress-line-inner{
+    background:  #ffe8e1 !important; 
+    
+}
+
+.second-one .rs-progress-line-bg {
+    background:#fd9071 !important;
+}
+
+.third-one .rs-progress-line-inner{
+   
+    background:  #dbf9fe !important; 
+}
+
+.third-one .rs-progress-line-bg {
+    background:  #30d0ee !important; 
+}
+
+
+.fourth-one .rs-progress-line-inner{
+    background:  #d4ecff !important; 
+    
+}
+
+.fourth-one .rs-progress-line-bg {
+    background:  #2a9fff !important; 
+}
+
+.progress-name {
+    color: #a1a1ab;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.rs-progress-line.rs-progress-line-vertical .rs-progress-info {
+    display: none;
+}
+
+.tooltip-progress {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    color: #333;
+    padding: 5px;
+    border-radius: 5px;
+    z-index: 1;
+    box-shadow: 1px 3px 7px #000;
+}
+
+.progress-container:hover .tooltip-progress {
+    display: block;
+}
+
+.progressing-blocks {
+    flex-wrap: wrap;
+}
+.total-card-webdomain {
+    margin-top: 20px !important;
+}
+.h-100 {
+    height: 100%;
+}
+
+@media(max-width:991px) {
+  
+    .g-20{
+        gap:20px;
+    }
+    .total-card-webdomain {
+        margin-top: 0px !important;
+    }
+    .first-column-progress {
+        gap: 10px;
+    }
+    .web-card-heading{
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .main-header{
+        flex-direction: column;
+    }
+    .right-sidebar{
+        margin-top: 20px;
+    }
+   
+}

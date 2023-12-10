@@ -1,0 +1,162 @@
+.nav-tabs .nav-link.active {
+  
+    border:none !important;
+    border-bottom:2px solid  #6e28e5 !important;
+    border-top-right-radius:0px !important;
+    border-top-left-radius:0px !important;
+    border-radius: 0px;
+    background: #fafafa;
+    font-size: 16px;
+    
+}
+
+.nav-tabs .nav-link{
+    font-weight: 600;
+    color: #d1cbcb;
+    font-size: 16px;
+}
+
+.domain-heading{
+    display: flex;
+    padding: 20px 100px;
+}
+
+.nav-tabs{
+        --bs-nav-tabs-border-color: transparent !important;
+        margin-bottom: 30px !important;
+}
+
+.domain-button{
+    background: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    color:#485ef1;
+    border: 1px solid #485ef1;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.globe-icon{
+    padding-left: 10px;
+}
+
+.first-section-domains{
+
+    position: relative;
+
+}
+.link-btn-domain{
+    position: absolute;
+    right: 10%;
+}
+
+.card-heading-domain{
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap:10px;
+   
+
+}
+.g-10{
+    gap:10px;
+}
+.p-100{
+    padding:0px 85px;
+}
+.card-main-domain{
+    padding: 20px;
+    border-radius: 15px;
+    border:none;
+  
+}
+
+.card-inner-items{
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.containerDomain{
+    padding:0px 100px 0px 100px
+}
+
+.first-section-domains .tab-content .domains-cards{
+    background:linear-gradient(to right,#E9ECFF,#F6E7FF);
+    padding:40px 100px; /* New background color */
+}
+
+.new-domain h6{
+
+    color: #6e28e5; 
+
+}
+.domain-heading h3{
+    color:#000;
+}
+
+.expiring-heading{
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.expiring-card{
+    border:none;
+    padding: 40px 30px
+}
+
+.new-domain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+   height: 188px;
+   border:3px dashed #d1cbcb;
+   padding: 20px;
+}
+
+.subscription-card{
+    background-color: #FBF9F2;
+    margin: 100px 0px 60px;
+    padding: 30px;
+    border: 1px solid  #6e28e5; 
+    border-image-slice: 1; 
+    border-radius: 10px; 
+}
+
+@media(max-width:991px){
+    .p-100 {
+        padding: 0px 5px;
+    }
+    .domains-cards{
+        flex-direction: column;
+    }
+
+    .card-heading-domain h3{
+        font-size: 18px;
+    }
+    .domain-heading {
+        
+        padding: 20px 30px;
+    }
+
+    .link-btn-domain{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    position: unset;
+    padding-bottom: 20px;
+    }
+
+    .first-section-domains .tab-content  .domains-cards{
+      
+        padding: 40px 25px;
+    }
+    .table-container {
+        overflow-x: auto; /* Enable horizontal scroll on smaller screens */
+      }
+   
+}
